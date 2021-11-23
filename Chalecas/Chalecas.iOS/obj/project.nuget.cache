@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "kxs6T1u2dvdpUklGE8sOczaednl/BVtiW0n5WjD1fqloBE8E/Qr+N+fQ19FqnfAzyQ06w6J8mGQCK3w/AuTqMg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\EjeDesarrolloCS-165\\source\\repos\\Chalecas\\Chalecas\\Chalecas.iOS\\Chalecas.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.8.0.1451\\xamarin.forms.4.8.0.1451.nupkg.sha512"
+  ],
+  "logs": []
+}
