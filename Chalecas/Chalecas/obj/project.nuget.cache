@@ -1,14 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "VNlcyRnBXBBBT9cZeV6/G5C0plH1/YNgI8oDfu+uJ1S8wotoR6gOHWAxLZuPrty8kOK3FfdKqdtxwhRyPj9u4w==",
+  "dgSpecHash": "xHEvP44xE4d7ujL5Pcsq/sf6oK61UA3JFOR780zGzEkJLhoMo6Mi4+GwbkADxchS2fed/RpnhyZpeDlbIFxTgA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\EjeDesarrolloCS-165\\source\\repos\\Chalecas\\Chalecas\\Chalecas\\Chalecas.csproj",
+  "projectFilePath": "/Users/ed/Desktop/chalecos/ChalecaApp/Chalecas/Chalecas/Chalecas.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\EjeDesarrolloCS-165\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\EjeDesarrolloCS-165\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
-    "C:\\Users\\EjeDesarrolloCS-165\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
-    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
-    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.8.0.1451\\xamarin.forms.4.8.0.1451.nupkg.sha512"
+    "/Users/ed/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/Users/ed/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512",
+    "/Users/ed/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
+    "/Users/ed/.nuget/packages/xamarin.essentials/1.5.3.2/xamarin.essentials.1.5.3.2.nupkg.sha512",
+    "/Users/ed/.nuget/packages/xamarin.forms/4.8.0.1451/xamarin.forms.4.8.0.1451.nupkg.sha512"
   ],
   "logs": []
 }
