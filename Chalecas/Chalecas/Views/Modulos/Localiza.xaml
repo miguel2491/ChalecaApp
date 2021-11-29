@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:maps="clr-namespace:Xamarin.Forms.Maps;assembly=Xamarin.Forms.Maps"
+             BackgroundColor="#400101"
+             Icon="localiza.png"
+             x:Class="Chalecas.Views.Modulos.Localiza">
+    <ContentPage.Content>
+        <StackLayout>
+            <Frame HasShadow="True" Padding="3,60,3,3" BackgroundColor="Transparent" CornerRadius="20">
+                <maps:Map x:Name="Mapx" WidthRequest="100" HeightRequest="300" IsVisible="false"/>
+            </Frame>
+            <StackLayout>
+                <Label Text="Última Ubicación" HorizontalTextAlignment="Center" TextColor="#F29F05"></Label>
+            </StackLayout>
+            <StackLayout WidthRequest="50">
+                <Picker x:Name="listUser" 
+                        Title="Seleccionar"
+                        HorizontalTextAlignment="Center"
+                        BackgroundColor="Transparent"
+                        TextColor="#F2B705"
+                        WidthRequest="50"
+                        >
+                </Picker>
+            </StackLayout>
+            <StackLayout>
+                <Button Margin="80,10,80,10" Text="Ubicar" TextColor="#730202" BackgroundColor="#F2762E" HeightRequest="50" x:Name="btnUbicar" Clicked="btnUbicar_Clicked" />
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

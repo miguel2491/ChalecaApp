@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Chalecas.Views.Login;
+using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -10,7 +11,8 @@ namespace Chalecas
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage( new MainPage());
+            //MainPage = new MainPage();
+            MainPage = new NavigationPage(new SplashScreen());
         }
 
         protected override void OnStart()

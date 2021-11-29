@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             BackgroundColor="#731702"
+             Icon="timbre.png"
+             x:Class="Chalecas.Views.Modulos.TimbreO">
+    <ContentPage.Content>
+        <StackLayout Padding="5,200,5,0">
+            <Image Source="ic_sindica.png" 
+                   x:Name="ImageSindi"
+                    Aspect="AspectFill"
+                    HeightRequest="250"
+                    WidthRequest="250"
+                    HorizontalOptions="Center" 
+                   />
+            <Button Text="Timbrar" x:Name="btnTimbrar" IsVisible="false" Clicked="btnTimbrar_Clicked" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

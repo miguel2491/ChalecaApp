@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             BackgroundColor="#660900"
+             x:Class="Chalecas.Views.Login.Login">
+    <ContentPage.Content>
+        <StackLayout Padding="10,0,10,0" VerticalOptions="Center">
+            <Image Source="ic_sindica.png" 
+                Aspect="AspectFill"
+                HeightRequest="150"
+                WidthRequest="150"
+                HorizontalOptions="Center" />
+            <Label Text="Chalequitas"
+                   Margin="20,20,20,20"
+                   FontSize="26"
+                   TextColor="#F2762E"
+                   VerticalOptions="CenterAndExpand"
+                   HorizontalOptions="CenterAndExpand" />
+            <Entry
+                Placeholder="USUARIO"
+                PlaceholderColor="#F2762E"
+                TextColor="#F2762E"
+                VerticalTextAlignment="Center"
+                HorizontalTextAlignment="Center"
+                x:Name="username"
+                />
+            <Entry
+                Margin="10,60,20,30"
+                Placeholder="PASSWORD"
+                HorizontalTextAlignment="Center"
+                VerticalTextAlignment="Center"
+                x:Name="password"
+                TextColor="#F2762E"
+                PlaceholderColor="#F2762E"
+                IsPassword="True"/>
+            <StackLayout Margin="30,20,30,40">
+                <Label
+                    x:Name="Errormsn"
+                    IsVisible="False"
+                    TextColor="red"
+                    HorizontalTextAlignment="Center"
+                    />
+            </StackLayout>
+            <StackLayout>
+                <Button 
+                    Margin="10,5,10,10"
+                    Text="INGRESAR"
+                    x:Name="btnIniciarSesion"
+                    TextColor="#730202"
+                    BackgroundColor="#F2762E"
+                    Clicked="btnIniciarSesion_Clicked"
+                />
+                <ActivityIndicator x:Name="activityLogin" IsRunning="False" VerticalOptions="Center" HorizontalOptions="Center"/>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

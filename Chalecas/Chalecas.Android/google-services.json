@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "301403487868",
+    "project_id": "wendipanic",
+    "storage_bucket": "wendipanic.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:301403487868:android:c0d852c19254f04440d3f9",
+        "android_client_info": {
+          "package_name": "com.companyname.wendipanic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "301403487868-8dg3tre5ahentpc48ntt7mlmp36iqcc1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBf2b7JGwyOV8O7mn2Gql_JtuL6k60b0rI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "301403487868-8dg3tre5ahentpc48ntt7mlmp36iqcc1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
